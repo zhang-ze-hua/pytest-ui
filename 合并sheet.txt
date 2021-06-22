@@ -1,0 +1,51 @@
+Sub Hebing()
+    Dim sheetcount As Long
+    Application.ScreenUpdating = False
+    sheetcount = Sheets.Count
+    For j = 1 To sheetcount
+    If Sheets(j).Name <> ActiveSheet.Name Then
+    X = Range("A65536").End(xlUp).Row + 1
+    Sheets(j).UsedRange.Copy Cells(X, 1)
+    End If
+    Next
+    Range("B1").Select
+    Application.ScreenUpdating = True
+    MsgBox "合并成功", vbInformation, "提示"
+    
+    Dim max As Long
+    'Set Sheet = Worksheets("汇总")
+    Set Sheet = Worksheets(sheetcount)
+    max = Sheet.Cells(Rows.Count, "B").End(xlUp).Row
+    Range("K2:K" + CStr(max)).Select
+    Selection.Replace What:=".00(S)", Replacement:="", LookAt:=xlPart, SearchOrder:=xlByRows, MatchCase:=False, MatchByte:=False, SearchFormat:=True, ReplaceFormat:=True
+    Selection.NumberFormatLocal = "0_ "
+    Range("K46").Select
+    Range("A" + CStr(max + 4) + ":D" + CStr(max + 4)).Select
+    Selection.NumberFormatLocal = "0_ "
+    Range("E" + CStr(max + 4)).Select
+    Selection.NumberFormatLocal = "0.0000_ "
+    Range("E" + CStr(max + 1)).Select
+    Selection.NumberFormatLocal = "0_ "
+    Range("F" + CStr(max + 4)).Select
+    Selection.NumberFormatLocal = "0_ "
+    Range("G" + CStr(max + 5)).Select
+    Range("K9").CurrentRegion.NumberFormatLocal = "G/通用格式"
+    Range("K9").CurrentRegion = Range("K9").CurrentRegion.Value
+    Cells(max + 3, 1) = "运行成功"
+    Cells(max + 3, 2) = "运行失败"
+    Cells(max + 3, 3) = "未运行"
+    Cells(max + 3, 4) = "总数"
+    Cells(max + 3, 5) = "运行时间"
+    Cells(max + 3, 6) = "覆盖交易"
+    Cells(max + 1, 5) = "=SUMPRODUCT(1/COUNTIF($E$2:E" + CStr(max) + ",$E$2:E" + CStr(max) + "))"
+    Cells(max + 1, 11) = "=SUM($K$2:K" + CStr(max) + ")"
+    Cells(max + 4, 1) = "=COUNTIF($C$2:C" + CStr(max) + ",""运行成功"")"
+    Cells(max + 4, 2) = "=COUNTIF($C$2:C" + CStr(max) + ",""运行失败"")"
+    Cells(max + 4, 3) = "=COUNTIF($C$2:C" + CStr(max) + ",""未运行"")"
+    Cells(max + 4, 4) = "=SUM($A$" + CStr(max + 4) + ":C" + CStr(max + 4) + ")"
+    Cells(max + 4, 5) = "=K" + CStr(max + 1) + "/3600"
+    Cells(max + 4, 6) = "=E" + CStr(max + 1)
+    MsgBox "案例总数：" & max - 1
+    MsgBox "统计成功", vbInformation, "提示"
+End Sub
+

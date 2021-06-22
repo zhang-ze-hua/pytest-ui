@@ -1,0 +1,448 @@
+2021-04-02 15:49:57,820 -- [conftest.py-->line:19] - INFO: 开始执行登录的用例
+2021-04-02 15:50:08,249 -- [base_page.py-->line:57] - INFO: 元素--('xpath', '/html/body/div/div/div[1]/form/div[1]/div/div/input')--等待可见成功,等待时间0.6329998970031738秒
+2021-04-02 15:50:08,335 -- [base_page.py-->line:157] - INFO: 元素--('xpath', '/html/body/div/div/div[1]/form/div[1]/div/div/input')--输入----成功,等待时间0.7190001010894775秒
+2021-04-02 15:50:08,393 -- [base_page.py-->line:57] - INFO: 元素--('xpath', "//input[@placeholder='密码']")--等待可见成功,等待时间0.05799984931945801秒
+2021-04-02 15:50:08,638 -- [base_page.py-->line:157] - INFO: 元素--('xpath', "//input[@placeholder='密码']")--输入--sd888888--成功,等待时间0.30299973487854004秒
+2021-04-02 15:50:08,694 -- [base_page.py-->line:57] - INFO: 元素--('xpath', '/html/body/div/div/div[1]/form/div[3]/div/div[1]/div[2]/img')--等待可见成功,等待时间0.0559999942779541秒
+2021-04-02 15:50:08,704 -- [base_page.py-->line:123] - INFO: 元素--('xpath', '/html/body/div/div/div[1]/form/div[3]/div/div[1]/div[2]/img')--获取属性成功,等待时间0.06600022315979004秒
+2021-04-02 15:50:08,769 -- [base_page.py-->line:57] - INFO: 元素--('xpath', '/html/body/div/div/div[1]/form/div[3]/div/div[1]/div[1]/div/input')--等待可见成功,等待时间0.04999995231628418秒
+2021-04-02 15:50:09,105 -- [base_page.py-->line:157] - INFO: 元素--('xpath', '/html/body/div/div/div[1]/form/div[3]/div/div[1]/div[1]/div/input')--输入--mwbny--成功,等待时间0.3859999179840088秒
+2021-04-02 15:50:09,177 -- [base_page.py-->line:73] - INFO: 元素--('xpath', '/html/body/div/div/div[1]/form/div[4]/div/div[1]/div[2]/button/span')--等待可点击成功,等待时间0.0709998607635498秒
+2021-04-02 15:50:09,266 -- [base_page.py-->line:140] - INFO: 元素--('xpath', '/html/body/div/div/div[1]/form/div[4]/div/div[1]/div[2]/button/span')--点击成功,等待时间0.16000008583068848秒
+2021-04-02 15:50:09,293 -- [base_page.py-->line:89] - INFO: 元素--('xpath', "//*[contains(text(),'请输入正确的手机号')]")--等待被加载成功,等待时间0.026999711990356445秒
+2021-04-02 15:50:09,320 -- [test_login.py-->line:86] - ERROR: 用例--请输入正确的手机号--执行不通过
+2021-04-02 15:50:09,321 -- [test_login.py-->line:87] - DEBUG: 实际结果：
+2021-04-02 15:50:09,321 -- [test_login.py-->line:88] - DEBUG: 预期结果：请输入正确的手机号
+2021-04-02 15:50:09,321 -- [test_login.py-->line:89] - ERROR: assert '请输入正确的手机号' == ''
+  + 请输入正确的手机号
+Traceback (most recent call last):
+  File "C:\Users\wb0729\PycharmProjects\web_autotest\testcase\test_login.py", line 84, in test_login_error_alert
+    assert expected == result
+AssertionError: assert '请输入正确的手机号' == ''
+  + 请输入正确的手机号
+2021-04-02 15:50:20,085 -- [conftest.py-->line:28] - INFO: 登录的用例执行完毕
+
+
+
+2021-04-02 15:52:08,094 -- [conftest.py-->line:19] - INFO: 开始执行登录的用例
+2021-04-02 15:52:14,646 -- [base_page.py-->line:57] - INFO: 元素--('xpath', '/html/body/div/div/div[1]/form/div[1]/div/div/input')--等待可见成功,等待时间0.6269996166229248秒
+2021-04-02 15:52:14,937 -- [base_page.py-->line:157] - INFO: 元素--('xpath', '/html/body/div/div/div[1]/form/div[1]/div/div/input')--输入--17316181600--成功,等待时间0.9179997444152832秒
+2021-04-02 15:52:14,989 -- [base_page.py-->line:57] - INFO: 元素--('xpath', "//input[@placeholder='密码']")--等待可见成功,等待时间0.05200004577636719秒
+2021-04-02 15:52:15,306 -- [base_page.py-->line:157] - INFO: 元素--('xpath', "//input[@placeholder='密码']")--输入--sd888888--成功,等待时间0.3690001964569092秒
+2021-04-02 15:52:15,356 -- [base_page.py-->line:57] - INFO: 元素--('xpath', '/html/body/div/div/div[1]/form/div[3]/div/div[1]/div[2]/img')--等待可见成功,等待时间0.04999995231628418秒
+2021-04-02 15:52:15,364 -- [base_page.py-->line:123] - INFO: 元素--('xpath', '/html/body/div/div/div[1]/form/div[3]/div/div[1]/div[2]/img')--获取属性成功,等待时间0.05799984931945801秒
+2021-04-02 15:52:15,413 -- [base_page.py-->line:57] - INFO: 元素--('xpath', '/html/body/div/div/div[1]/form/div[3]/div/div[1]/div[1]/div/input')--等待可见成功,等待时间0.04399991035461426秒
+2021-04-02 15:52:15,566 -- [base_page.py-->line:157] - INFO: 元素--('xpath', '/html/body/div/div/div[1]/form/div[3]/div/div[1]/div[1]/div/input')--输入--dgdne--成功,等待时间0.19699978828430176秒
+2021-04-02 15:52:15,648 -- [base_page.py-->line:73] - INFO: 元素--('xpath', '/html/body/div/div/div[1]/form/div[4]/div/div[1]/div[2]/button/span')--等待可点击成功,等待时间0.0820002555847168秒
+2021-04-02 15:52:15,723 -- [base_page.py-->line:140] - INFO: 元素--('xpath', '/html/body/div/div/div[1]/form/div[4]/div/div[1]/div[2]/button/span')--点击成功,等待时间0.15700030326843262秒
+2021-04-02 15:52:22,167 -- [base_page.py-->line:57] - INFO: 元素--('xpath', '/html/body/div/div/div[1]/form/div[4]/div/div[1]/div[1]/div/input')--等待可见成功,等待时间0.04800009727478027秒
+2021-04-02 15:52:22,347 -- [base_page.py-->line:157] - INFO: 元素--('xpath', '/html/body/div/div/div[1]/form/div[4]/div/div[1]/div[1]/div/input')--输入--797550--成功,等待时间0.22900009155273438秒
+2021-04-02 15:52:22,413 -- [base_page.py-->line:73] - INFO: 元素--('xpath', "//button/*[text()='登录']")--等待可点击成功,等待时间0.06599998474121094秒
+2021-04-02 15:52:22,491 -- [base_page.py-->line:140] - INFO: 元素--('xpath', "//button/*[text()='登录']")--点击成功,等待时间0.14400005340576172秒
+2021-04-02 15:52:23,082 -- [base_page.py-->line:57] - INFO: 元素--('xpath', "//*[text()='退出']")--等待可见成功,等待时间0.5910000801086426秒
+2021-04-02 15:52:23,133 -- [base_page.py-->line:123] - INFO: 元素--('xpath', "//*[text()='退出']")--获取属性成功,等待时间0.6419999599456787秒
+2021-04-02 15:52:23,133 -- [test_login.py-->line:39] - ERROR: 用例--登录成功--执行通过
+2021-04-02 15:52:28,612 -- [conftest.py-->line:28] - INFO: 登录的用例执行完毕
+
+
+
+2021-04-02 15:52:28,622 -- [conftest.py-->line:19] - INFO: 开始执行登录的用例
+2021-04-02 15:52:35,671 -- [base_page.py-->line:57] - INFO: 元素--('xpath', '/html/body/div/div/div[1]/form/div[1]/div/div/input')--等待可见成功,等待时间0.6050000190734863秒
+2021-04-02 15:52:35,957 -- [base_page.py-->line:157] - INFO: 元素--('xpath', '/html/body/div/div/div[1]/form/div[1]/div/div/input')--输入--17316181600--成功,等待时间0.8909997940063477秒
+2021-04-02 15:52:36,004 -- [base_page.py-->line:57] - INFO: 元素--('xpath', "//input[@placeholder='密码']")--等待可见成功,等待时间0.04600024223327637秒
+2021-04-02 15:52:36,208 -- [base_page.py-->line:157] - INFO: 元素--('xpath', "//input[@placeholder='密码']")--输入----成功,等待时间0.2500002384185791秒
+2021-04-02 15:52:36,265 -- [base_page.py-->line:57] - INFO: 元素--('xpath', '/html/body/div/div/div[1]/form/div[3]/div/div[1]/div[2]/img')--等待可见成功,等待时间0.056999921798706055秒
+2021-04-02 15:52:36,276 -- [base_page.py-->line:123] - INFO: 元素--('xpath', '/html/body/div/div/div[1]/form/div[3]/div/div[1]/div[2]/img')--获取属性成功,等待时间0.06800007820129395秒
+2021-04-02 15:52:36,339 -- [base_page.py-->line:57] - INFO: 元素--('xpath', '/html/body/div/div/div[1]/form/div[3]/div/div[1]/div[1]/div/input')--等待可见成功,等待时间0.04900002479553223秒
+2021-04-02 15:52:36,562 -- [base_page.py-->line:157] - INFO: 元素--('xpath', '/html/body/div/div/div[1]/form/div[3]/div/div[1]/div[1]/div/input')--输入--mn76w--成功,等待时间0.2720000743865967秒
+2021-04-02 15:52:36,663 -- [base_page.py-->line:73] - INFO: 元素--('xpath', '/html/body/div/div/div[1]/form/div[4]/div/div[1]/div[2]/button/span')--等待可点击成功,等待时间0.10099983215332031秒
+2021-04-02 15:52:36,739 -- [base_page.py-->line:140] - INFO: 元素--('xpath', '/html/body/div/div/div[1]/form/div[4]/div/div[1]/div[2]/button/span')--点击成功,等待时间0.1770000457763672秒
+2021-04-02 15:52:39,839 -- [base_page.py-->line:57] - INFO: 元素--('xpath', '/html/body/div/div/div[1]/form/div[4]/div/div[1]/div[1]/div/input')--等待可见成功,等待时间0.051000118255615234秒
+2021-04-02 15:52:40,061 -- [base_page.py-->line:157] - INFO: 元素--('xpath', '/html/body/div/div/div[1]/form/div[4]/div/div[1]/div[1]/div/input')--输入--571082--成功,等待时间0.2720000743865967秒
+2021-04-02 15:52:40,132 -- [base_page.py-->line:73] - INFO: 元素--('xpath', "//button/*[text()='登录']")--等待可点击成功,等待时间0.0710000991821289秒
+2021-04-02 15:52:40,195 -- [base_page.py-->line:140] - INFO: 元素--('xpath', "//button/*[text()='登录']")--点击成功,等待时间0.13400006294250488秒
+2021-04-02 15:52:40,263 -- [base_page.py-->line:57] - INFO: 元素--('xpath', "//*[contains(text(),'密码不能为空')]")--等待可见成功,等待时间0.06800007820129395秒
+2021-04-02 15:52:40,294 -- [base_page.py-->line:106] - INFO: 元素--('xpath', "//*[contains(text(),'密码不能为空')]")--获取文本成功,等待时间0.0989997386932373秒
+2021-04-02 15:52:40,294 -- [test_login.py-->line:66] - ERROR: 用例--密码不能为空--执行通过
+2021-04-02 15:52:45,740 -- [conftest.py-->line:28] - INFO: 登录的用例执行完毕
+
+
+
+2021-04-02 15:52:45,750 -- [conftest.py-->line:19] - INFO: 开始执行登录的用例
+2021-04-02 15:52:52,623 -- [base_page.py-->line:57] - INFO: 元素--('xpath', '/html/body/div/div/div[1]/form/div[1]/div/div/input')--等待可见成功,等待时间0.6090002059936523秒
+2021-04-02 15:52:52,720 -- [base_page.py-->line:157] - INFO: 元素--('xpath', '/html/body/div/div/div[1]/form/div[1]/div/div/input')--输入----成功,等待时间0.7060003280639648秒
+2021-04-02 15:52:52,781 -- [base_page.py-->line:57] - INFO: 元素--('xpath', "//input[@placeholder='密码']")--等待可见成功,等待时间0.06099987030029297秒
+2021-04-02 15:52:53,132 -- [base_page.py-->line:157] - INFO: 元素--('xpath', "//input[@placeholder='密码']")--输入--sd888888--成功,等待时间0.4119999408721924秒
+2021-04-02 15:52:53,185 -- [base_page.py-->line:57] - INFO: 元素--('xpath', '/html/body/div/div/div[1]/form/div[3]/div/div[1]/div[2]/img')--等待可见成功,等待时间0.05299997329711914秒
+2021-04-02 15:52:53,192 -- [base_page.py-->line:123] - INFO: 元素--('xpath', '/html/body/div/div/div[1]/form/div[3]/div/div[1]/div[2]/img')--获取属性成功,等待时间0.059999942779541016秒
+2021-04-02 15:52:53,258 -- [base_page.py-->line:57] - INFO: 元素--('xpath', '/html/body/div/div/div[1]/form/div[3]/div/div[1]/div[1]/div/input')--等待可见成功,等待时间0.051000118255615234秒
+2021-04-02 15:52:53,455 -- [base_page.py-->line:157] - INFO: 元素--('xpath', '/html/body/div/div/div[1]/form/div[3]/div/div[1]/div[1]/div/input')--输入--nfcae--成功,等待时间0.247999906539917秒
+2021-04-02 15:52:53,547 -- [base_page.py-->line:73] - INFO: 元素--('xpath', '/html/body/div/div/div[1]/form/div[4]/div/div[1]/div[2]/button/span')--等待可点击成功,等待时间0.09200000762939453秒
+2021-04-02 15:52:53,632 -- [base_page.py-->line:140] - INFO: 元素--('xpath', '/html/body/div/div/div[1]/form/div[4]/div/div[1]/div[2]/button/span')--点击成功,等待时间0.1770000457763672秒
+2021-04-02 15:52:53,670 -- [base_page.py-->line:89] - INFO: 元素--('xpath', "//*[contains(text(),'请输入正确的手机号')]")--等待被加载成功,等待时间0.037999868392944336秒
+2021-04-02 15:52:53,701 -- [test_login.py-->line:86] - ERROR: 用例--请输入正确的手机号--执行不通过
+2021-04-02 15:52:53,701 -- [test_login.py-->line:87] - DEBUG: 实际结果：
+2021-04-02 15:52:53,701 -- [test_login.py-->line:88] - DEBUG: 预期结果：请输入正确的手机号
+2021-04-02 15:52:53,702 -- [test_login.py-->line:89] - ERROR: assert '请输入正确的手机号' == ''
+  + 请输入正确的手机号
+Traceback (most recent call last):
+  File "C:\Users\wb0729\PycharmProjects\web_autotest\testcase\test_login.py", line 84, in test_login_error_alert
+    assert expected == result
+AssertionError: assert '请输入正确的手机号' == ''
+  + 请输入正确的手机号
+2021-04-02 15:53:03,016 -- [conftest.py-->line:28] - INFO: 登录的用例执行完毕
+
+
+
+2021-04-02 15:57:00,318 -- [conftest.py-->line:19] - INFO: 开始执行登录的用例
+2021-04-02 15:57:08,709 -- [base_page.py-->line:57] - INFO: 元素--('xpath', '/html/body/div/div/div[1]/form/div[1]/div/div/input')--等待可见成功,等待时间0.6070001125335693秒
+2021-04-02 15:57:08,809 -- [base_page.py-->line:157] - INFO: 元素--('xpath', '/html/body/div/div/div[1]/form/div[1]/div/div/input')--输入----成功,等待时间0.7070000171661377秒
+2021-04-02 15:57:08,864 -- [base_page.py-->line:57] - INFO: 元素--('xpath', "//input[@placeholder='密码']")--等待可见成功,等待时间0.053999900817871094秒
+2021-04-02 15:57:09,238 -- [base_page.py-->line:157] - INFO: 元素--('xpath', "//input[@placeholder='密码']")--输入--sd888888--成功,等待时间0.42799973487854004秒
+2021-04-02 15:57:09,299 -- [base_page.py-->line:57] - INFO: 元素--('xpath', '/html/body/div/div/div[1]/form/div[3]/div/div[1]/div[2]/img')--等待可见成功,等待时间0.059999942779541016秒
+2021-04-02 15:57:09,306 -- [base_page.py-->line:123] - INFO: 元素--('xpath', '/html/body/div/div/div[1]/form/div[3]/div/div[1]/div[2]/img')--获取属性成功,等待时间0.06699991226196289秒
+2021-04-02 15:57:09,372 -- [base_page.py-->line:57] - INFO: 元素--('xpath', '/html/body/div/div/div[1]/form/div[3]/div/div[1]/div[1]/div/input')--等待可见成功,等待时间0.051000118255615234秒
+2021-04-02 15:57:09,541 -- [base_page.py-->line:157] - INFO: 元素--('xpath', '/html/body/div/div/div[1]/form/div[3]/div/div[1]/div[1]/div/input')--输入--wwegm--成功,等待时间0.2200000286102295秒
+2021-04-02 15:57:09,621 -- [base_page.py-->line:73] - INFO: 元素--('xpath', '/html/body/div/div/div[1]/form/div[4]/div/div[1]/div[2]/button/span')--等待可点击成功,等待时间0.07999992370605469秒
+2021-04-02 15:57:09,702 -- [base_page.py-->line:140] - INFO: 元素--('xpath', '/html/body/div/div/div[1]/form/div[4]/div/div[1]/div[2]/button/span')--点击成功,等待时间0.16100001335144043秒
+2021-04-02 15:57:10,725 -- [base_page.py-->line:89] - INFO: 元素--('xpath', "//*[contains(text(),'请输入正确的手机号')]")--等待被加载成功,等待时间0.023000001907348633秒
+2021-04-02 15:57:10,750 -- [test_login.py-->line:95] - ERROR: 用例--请输入正确的手机号--执行通过
+2021-04-02 15:57:15,697 -- [conftest.py-->line:28] - INFO: 登录的用例执行完毕
+
+
+
+2021-04-06 11:48:24,714 -- [conftest.py-->line:19] - INFO: 开始执行登录的用例
+2021-04-06 11:48:33,378 -- [1test_login.py-->line:44] - ERROR: 正例-交易成功===登录成功===执行不通过
+2021-04-06 11:48:33,386 -- [1test_login.py-->line:45] - WARNING: 实际结果：None
+2021-04-06 11:48:33,387 -- [1test_login.py-->line:46] - WARNING: 预期结果：登录成功
+2021-04-06 11:48:33,387 -- [1test_login.py-->line:47] - ERROR: assert '登录成功' == None
+Traceback (most recent call last):
+  File "C:\Users\wb0729\PycharmProjects\web_autotest\testcase\1test_login.py", line 42, in test_login
+    assert expected == result
+AssertionError: assert '登录成功' == None
+2021-04-06 11:48:42,687 -- [conftest.py-->line:28] - INFO: 登录的用例执行完毕
+
+
+
+2021-04-06 11:48:42,744 -- [conftest.py-->line:19] - INFO: 开始执行登录的用例
+2021-04-06 11:48:49,218 -- [base_page.py-->line:57] - INFO: 元素--('xpath', '/html/body/div/div/div[1]/form/div[1]/div/div/input')--等待可见成功,等待时间0.6359364986419678秒
+2021-04-06 11:48:49,513 -- [base_page.py-->line:157] - INFO: 元素--('xpath', '/html/body/div/div/div[1]/form/div[1]/div/div/input')--输入--17316181600--成功,等待时间0.9309070110321045秒
+2021-04-06 11:48:49,562 -- [base_page.py-->line:57] - INFO: 元素--('xpath', "//input[@placeholder='密码']")--等待可见成功,等待时间0.048995018005371094秒
+2021-04-06 11:48:49,811 -- [base_page.py-->line:157] - INFO: 元素--('xpath', "//input[@placeholder='密码']")--输入----成功,等待时间0.2979700565338135秒
+2021-04-06 11:48:49,865 -- [base_page.py-->line:57] - INFO: 元素--('xpath', '/html/body/div/div/div[1]/form/div[3]/div/div[1]/div[2]/img')--等待可见成功,等待时间0.05399489402770996秒
+2021-04-06 11:48:49,877 -- [base_page.py-->line:123] - INFO: 元素--('xpath', '/html/body/div/div/div[1]/form/div[3]/div/div[1]/div[2]/img')--获取属性成功,等待时间0.06499361991882324秒
+2021-04-06 11:48:49,956 -- [base_page.py-->line:57] - INFO: 元素--('xpath', '/html/body/div/div/div[1]/form/div[3]/div/div[1]/div[1]/div/input')--等待可见成功,等待时间0.04499554634094238秒
+2021-04-06 11:48:50,145 -- [base_page.py-->line:157] - INFO: 元素--('xpath', '/html/body/div/div/div[1]/form/div[3]/div/div[1]/div[1]/div/input')--输入--pb7nc--成功,等待时间0.2339766025543213秒
+2021-04-06 11:48:50,213 -- [base_page.py-->line:73] - INFO: 元素--('xpath', '/html/body/div/div/div[1]/form/div[4]/div/div[1]/div[2]/button/span')--等待可点击成功,等待时间0.0679934024810791秒
+2021-04-06 11:48:50,327 -- [base_page.py-->line:140] - INFO: 元素--('xpath', '/html/body/div/div/div[1]/form/div[4]/div/div[1]/div[2]/button/span')--点击成功,等待时间0.18198180198669434秒
+2021-04-06 11:48:56,545 -- [base_page.py-->line:57] - INFO: 元素--('xpath', '/html/body/div/div/div[1]/form/div[4]/div/div[1]/div[1]/div/input')--等待可见成功,等待时间0.045995235443115234秒
+2021-04-06 11:48:56,739 -- [base_page.py-->line:157] - INFO: 元素--('xpath', '/html/body/div/div/div[1]/form/div[4]/div/div[1]/div[1]/div/input')--输入--334197--成功,等待时间0.2399759292602539秒
+2021-04-06 11:48:56,815 -- [base_page.py-->line:73] - INFO: 元素--('xpath', "//button/*[text()='登录']")--等待可点击成功,等待时间0.07599234580993652秒
+2021-04-06 11:48:56,875 -- [base_page.py-->line:140] - INFO: 元素--('xpath', "//button/*[text()='登录']")--点击成功,等待时间0.13498640060424805秒
+2021-04-06 11:48:56,929 -- [base_page.py-->line:57] - INFO: 元素--('xpath', "//*[contains(text(),'密码不能为空')]")--等待可见成功,等待时间0.05399465560913086秒
+2021-04-06 11:48:56,965 -- [base_page.py-->line:106] - INFO: 元素--('xpath', "//*[contains(text(),'密码不能为空')]")--获取文本成功,等待时间0.08999109268188477秒
+2021-04-06 11:48:56,965 -- [1test_login.py-->line:51] - INFO: 反例-页面提示===密码不能为空===执行通过
+2021-04-06 11:48:56,965 -- [1test_login.py-->line:52] - DEBUG: 实际结果：密码不能为空
+2021-04-06 11:48:56,965 -- [1test_login.py-->line:53] - DEBUG: 预期结果：密码不能为空
+2021-04-06 11:49:02,307 -- [conftest.py-->line:28] - INFO: 登录的用例执行完毕
+
+
+
+2021-04-06 11:49:02,318 -- [conftest.py-->line:19] - INFO: 开始执行登录的用例
+2021-04-06 11:49:08,567 -- [base_page.py-->line:57] - INFO: 元素--('xpath', '/html/body/div/div/div[1]/form/div[1]/div/div/input')--等待可见成功,等待时间0.6109390258789062秒
+2021-04-06 11:49:08,674 -- [base_page.py-->line:157] - INFO: 元素--('xpath', '/html/body/div/div/div[1]/form/div[1]/div/div/input')--输入----成功,等待时间0.7179281711578369秒
+2021-04-06 11:49:08,725 -- [base_page.py-->line:57] - INFO: 元素--('xpath', "//input[@placeholder='密码']")--等待可见成功,等待时间0.050994873046875秒
+2021-04-06 11:49:09,102 -- [base_page.py-->line:157] - INFO: 元素--('xpath', "//input[@placeholder='密码']")--输入--sd888888--成功,等待时间0.42795705795288086秒
+2021-04-06 11:49:09,156 -- [base_page.py-->line:57] - INFO: 元素--('xpath', '/html/body/div/div/div[1]/form/div[3]/div/div[1]/div[2]/img')--等待可见成功,等待时间0.05399489402770996秒
+2021-04-06 11:49:09,166 -- [base_page.py-->line:123] - INFO: 元素--('xpath', '/html/body/div/div/div[1]/form/div[3]/div/div[1]/div[2]/img')--获取属性成功,等待时间0.06399369239807129秒
+2021-04-06 11:49:09,238 -- [base_page.py-->line:57] - INFO: 元素--('xpath', '/html/body/div/div/div[1]/form/div[3]/div/div[1]/div[1]/div/input')--等待可见成功,等待时间0.055994510650634766秒
+2021-04-06 11:49:09,529 -- [base_page.py-->line:157] - INFO: 元素--('xpath', '/html/body/div/div/div[1]/form/div[3]/div/div[1]/div[1]/div/input')--输入--cp2dw--成功,等待时间0.3459653854370117秒
+2021-04-06 11:49:09,614 -- [base_page.py-->line:73] - INFO: 元素--('xpath', '/html/body/div/div/div[1]/form/div[4]/div/div[1]/div[2]/button/span')--等待可点击成功,等待时间0.084991455078125秒
+2021-04-06 11:49:09,685 -- [base_page.py-->line:140] - INFO: 元素--('xpath', '/html/body/div/div/div[1]/form/div[4]/div/div[1]/div[2]/button/span')--点击成功,等待时间0.15598440170288086秒
+2021-04-06 11:49:10,717 -- [base_page.py-->line:89] - INFO: 元素--('xpath', "//*[contains(text(),'请输入正确的手机号')]")--等待被加载成功,等待时间0.03099679946899414秒
+2021-04-06 11:49:10,744 -- [1test_login.py-->line:51] - INFO: 反例-弹窗提示===请输入正确的手机号===执行通过
+2021-04-06 11:49:10,744 -- [1test_login.py-->line:52] - DEBUG: 实际结果：请输入正确的手机号
+2021-04-06 11:49:10,744 -- [1test_login.py-->line:53] - DEBUG: 预期结果：请输入正确的手机号
+2021-04-06 11:49:15,402 -- [conftest.py-->line:28] - INFO: 登录的用例执行完毕
+
+
+
+2021-04-06 11:52:38,663 -- [conftest.py-->line:19] - INFO: 开始执行登录的用例
+2021-04-06 11:52:45,034 -- [1test_login.py-->line:44] - ERROR: 正例-交易成功===登录成功===执行不通过
+2021-04-06 11:52:45,042 -- [1test_login.py-->line:45] - WARNING: 实际结果：None
+2021-04-06 11:52:45,043 -- [1test_login.py-->line:46] - WARNING: 预期结果：登录成功
+2021-04-06 11:52:45,043 -- [1test_login.py-->line:47] - ERROR: assert '登录成功' == None
+Traceback (most recent call last):
+  File "C:\Users\wb0729\PycharmProjects\web_autotest\testcase\1test_login.py", line 42, in test_login
+    assert expected == result
+AssertionError: assert '登录成功' == None
+2021-04-06 11:52:56,640 -- [conftest.py-->line:28] - INFO: 登录的用例执行完毕
+
+
+
+2021-04-06 11:52:56,658 -- [conftest.py-->line:19] - INFO: 开始执行登录的用例
+2021-04-06 11:53:04,361 -- [base_page.py-->line:57] - INFO: 元素--('xpath', '/html/body/div/div/div[1]/form/div[1]/div/div/input')--等待可见成功,等待时间0.6389999389648438秒
+2021-04-06 11:53:04,755 -- [base_page.py-->line:157] - INFO: 元素--('xpath', '/html/body/div/div/div[1]/form/div[1]/div/div/input')--输入--17316181600--成功,等待时间1.0329999923706055秒
+2021-04-06 11:53:04,804 -- [base_page.py-->line:57] - INFO: 元素--('xpath', "//input[@placeholder='密码']")--等待可见成功,等待时间0.04900002479553223秒
+2021-04-06 11:53:05,005 -- [base_page.py-->line:157] - INFO: 元素--('xpath', "//input[@placeholder='密码']")--输入----成功,等待时间0.2499997615814209秒
+2021-04-06 11:53:05,087 -- [base_page.py-->line:57] - INFO: 元素--('xpath', '/html/body/div/div/div[1]/form/div[3]/div/div[1]/div[2]/img')--等待可见成功,等待时间0.0820002555847168秒
+2021-04-06 11:53:05,096 -- [base_page.py-->line:123] - INFO: 元素--('xpath', '/html/body/div/div/div[1]/form/div[3]/div/div[1]/div[2]/img')--获取属性成功,等待时间0.09100008010864258秒
+2021-04-06 11:53:05,156 -- [base_page.py-->line:57] - INFO: 元素--('xpath', '/html/body/div/div/div[1]/form/div[3]/div/div[1]/div[1]/div/input')--等待可见成功,等待时间0.04500007629394531秒
+2021-04-06 11:53:05,358 -- [base_page.py-->line:157] - INFO: 元素--('xpath', '/html/body/div/div/div[1]/form/div[3]/div/div[1]/div[1]/div/input')--输入--2nd2p--成功,等待时间0.24700021743774414秒
+2021-04-06 11:53:05,462 -- [base_page.py-->line:73] - INFO: 元素--('xpath', '/html/body/div/div/div[1]/form/div[4]/div/div[1]/div[2]/button/span')--等待可点击成功,等待时间0.10299992561340332秒
+2021-04-06 11:53:05,545 -- [base_page.py-->line:140] - INFO: 元素--('xpath', '/html/body/div/div/div[1]/form/div[4]/div/div[1]/div[2]/button/span')--点击成功,等待时间0.18599987030029297秒
+2021-04-06 11:53:11,930 -- [base_page.py-->line:57] - INFO: 元素--('xpath', '/html/body/div/div/div[1]/form/div[4]/div/div[1]/div[1]/div/input')--等待可见成功,等待时间0.059999942779541016秒
+2021-04-06 11:53:12,138 -- [base_page.py-->line:157] - INFO: 元素--('xpath', '/html/body/div/div/div[1]/form/div[4]/div/div[1]/div[1]/div/input')--输入--620503--成功,等待时间0.26800012588500977秒
+2021-04-06 11:53:12,221 -- [base_page.py-->line:73] - INFO: 元素--('xpath', "//button/*[text()='登录']")--等待可点击成功,等待时间0.0819997787475586秒
+2021-04-06 11:53:12,303 -- [base_page.py-->line:140] - INFO: 元素--('xpath', "//button/*[text()='登录']")--点击成功,等待时间0.1640000343322754秒
+2021-04-06 11:53:12,361 -- [base_page.py-->line:57] - INFO: 元素--('xpath', "//*[contains(text(),'密码不能为空')]")--等待可见成功,等待时间0.056999921798706055秒
+2021-04-06 11:53:12,396 -- [base_page.py-->line:106] - INFO: 元素--('xpath', "//*[contains(text(),'密码不能为空')]")--获取文本成功,等待时间0.09200000762939453秒
+2021-04-06 11:53:12,397 -- [1test_login.py-->line:51] - INFO: 反例-页面提示===密码不能为空===执行通过
+2021-04-06 11:53:12,397 -- [1test_login.py-->line:52] - DEBUG: 实际结果：密码不能为空
+2021-04-06 11:53:12,397 -- [1test_login.py-->line:53] - DEBUG: 预期结果：密码不能为空
+2021-04-06 11:53:18,908 -- [conftest.py-->line:28] - INFO: 登录的用例执行完毕
+
+
+
+2021-04-06 11:53:18,925 -- [conftest.py-->line:19] - INFO: 开始执行登录的用例
+2021-04-06 11:53:25,742 -- [base_page.py-->line:57] - INFO: 元素--('xpath', '/html/body/div/div/div[1]/form/div[1]/div/div/input')--等待可见成功,等待时间0.2109999656677246秒
+2021-04-06 11:53:26,004 -- [base_page.py-->line:157] - INFO: 元素--('xpath', '/html/body/div/div/div[1]/form/div[1]/div/div/input')--输入----成功,等待时间0.47299981117248535秒
+2021-04-06 11:53:26,194 -- [base_page.py-->line:57] - INFO: 元素--('xpath', "//input[@placeholder='密码']")--等待可见成功,等待时间0.19000029563903809秒
+2021-04-06 11:53:26,671 -- [base_page.py-->line:157] - INFO: 元素--('xpath', "//input[@placeholder='密码']")--输入--sd888888--成功,等待时间0.6670000553131104秒
+2021-04-06 11:53:26,725 -- [base_page.py-->line:57] - INFO: 元素--('xpath', '/html/body/div/div/div[1]/form/div[3]/div/div[1]/div[2]/img')--等待可见成功,等待时间0.05299997329711914秒
+2021-04-06 11:53:26,732 -- [base_page.py-->line:123] - INFO: 元素--('xpath', '/html/body/div/div/div[1]/form/div[3]/div/div[1]/div[2]/img')--获取属性成功,等待时间0.06000018119812012秒
+2021-04-06 11:53:26,787 -- [base_page.py-->line:57] - INFO: 元素--('xpath', '/html/body/div/div/div[1]/form/div[3]/div/div[1]/div[1]/div/input')--等待可见成功,等待时间0.04800009727478027秒
+2021-04-06 11:53:27,028 -- [base_page.py-->line:157] - INFO: 元素--('xpath', '/html/body/div/div/div[1]/form/div[3]/div/div[1]/div[1]/div/input')--输入--dmb6f--成功,等待时间0.2890000343322754秒
+2021-04-06 11:53:27,104 -- [base_page.py-->line:73] - INFO: 元素--('xpath', '/html/body/div/div/div[1]/form/div[4]/div/div[1]/div[2]/button/span')--等待可点击成功,等待时间0.07599997520446777秒
+2021-04-06 11:53:27,180 -- [base_page.py-->line:140] - INFO: 元素--('xpath', '/html/body/div/div/div[1]/form/div[4]/div/div[1]/div[2]/button/span')--点击成功,等待时间0.15199995040893555秒
+2021-04-06 11:53:28,201 -- [base_page.py-->line:89] - INFO: 元素--('xpath', "//*[contains(text(),'请输入正确的手机号')]")--等待被加载成功,等待时间0.020999908447265625秒
+2021-04-06 11:53:28,228 -- [1test_login.py-->line:51] - INFO: 反例-弹窗提示===请输入正确的手机号===执行通过
+2021-04-06 11:53:28,229 -- [1test_login.py-->line:52] - DEBUG: 实际结果：请输入正确的手机号
+2021-04-06 11:53:28,229 -- [1test_login.py-->line:53] - DEBUG: 预期结果：请输入正确的手机号
+2021-04-06 11:53:33,707 -- [conftest.py-->line:28] - INFO: 登录的用例执行完毕
+
+
+
+2021-04-06 14:25:22,729 -- [conftest.py-->line:19] - INFO: 开始执行登录的用例
+2021-04-06 14:25:32,759 -- [1test_login.py-->line:45] - ERROR: 正例-交易成功===登录成功===未执行
+2021-04-06 14:25:38,763 -- [conftest.py-->line:28] - INFO: 登录的用例执行完毕
+
+
+
+2021-04-06 14:25:38,819 -- [conftest.py-->line:19] - INFO: 开始执行登录的用例
+2021-04-06 14:25:49,729 -- [base_page.py-->line:57] - INFO: 元素--('xpath', '/html/body/div/div/div[1]/form/div[1]/div/div/input')--等待可见成功,等待时间0.6210620403289795秒
+2021-04-06 14:25:50,100 -- [base_page.py-->line:157] - INFO: 元素--('xpath', '/html/body/div/div/div[1]/form/div[1]/div/div/input')--输入--17316181600--成功,等待时间0.9910991191864014秒
+2021-04-06 14:25:50,169 -- [base_page.py-->line:57] - INFO: 元素--('xpath', "//input[@placeholder='密码']")--等待可见成功,等待时间0.06900691986083984秒
+2021-04-06 14:25:50,854 -- [base_page.py-->line:157] - INFO: 元素--('xpath', "//input[@placeholder='密码']")--输入----成功,等待时间0.754075288772583秒
+2021-04-06 14:25:50,911 -- [base_page.py-->line:57] - INFO: 元素--('xpath', '/html/body/div/div/div[1]/form/div[3]/div/div[1]/div[2]/img')--等待可见成功,等待时间0.05700564384460449秒
+2021-04-06 14:25:50,920 -- [base_page.py-->line:123] - INFO: 元素--('xpath', '/html/body/div/div/div[1]/form/div[3]/div/div[1]/div[2]/img')--获取属性成功,等待时间0.06600666046142578秒
+2021-04-06 14:25:50,987 -- [base_page.py-->line:57] - INFO: 元素--('xpath', '/html/body/div/div/div[1]/form/div[3]/div/div[1]/div[1]/div/input')--等待可见成功,等待时间0.06100606918334961秒
+2021-04-06 14:25:51,296 -- [base_page.py-->line:157] - INFO: 元素--('xpath', '/html/body/div/div/div[1]/form/div[3]/div/div[1]/div[1]/div/input')--输入--6d38n--成功,等待时间0.3700370788574219秒
+2021-04-06 14:25:51,434 -- [base_page.py-->line:73] - INFO: 元素--('xpath', '/html/body/div/div/div[1]/form/div[4]/div/div[1]/div[2]/button/span')--等待可点击成功,等待时间0.13801360130310059秒
+2021-04-06 14:25:51,516 -- [base_page.py-->line:140] - INFO: 元素--('xpath', '/html/body/div/div/div[1]/form/div[4]/div/div[1]/div[2]/button/span')--点击成功,等待时间0.22002196311950684秒
+2021-04-06 14:25:57,706 -- [base_page.py-->line:57] - INFO: 元素--('xpath', '/html/body/div/div/div[1]/form/div[4]/div/div[1]/div[1]/div/input')--等待可见成功,等待时间0.043004512786865234秒
+2021-04-06 14:25:57,869 -- [base_page.py-->line:157] - INFO: 元素--('xpath', '/html/body/div/div/div[1]/form/div[4]/div/div[1]/div[1]/div/input')--输入--123673--成功,等待时间0.20602059364318848秒
+2021-04-06 14:25:57,945 -- [base_page.py-->line:73] - INFO: 元素--('xpath', "//button/*[text()='登录']")--等待可点击成功,等待时间0.07500743865966797秒
+2021-04-06 14:25:58,014 -- [base_page.py-->line:140] - INFO: 元素--('xpath', "//button/*[text()='登录']")--点击成功,等待时间0.1440143585205078秒
+2021-04-06 14:25:58,089 -- [base_page.py-->line:57] - INFO: 元素--('xpath', "//*[contains(text(),'密码不能为空')]")--等待可见成功,等待时间0.07400727272033691秒
+2021-04-06 14:25:58,129 -- [base_page.py-->line:106] - INFO: 元素--('xpath', "//*[contains(text(),'密码不能为空')]")--获取文本成功,等待时间0.11401152610778809秒
+2021-04-06 14:25:58,129 -- [1test_login.py-->line:55] - INFO: 反例-页面提示===密码不能为空===执行通过
+2021-04-06 14:25:58,129 -- [1test_login.py-->line:56] - DEBUG: 实际结果：密码不能为空
+2021-04-06 14:25:58,130 -- [1test_login.py-->line:57] - DEBUG: 预期结果：密码不能为空
+2021-04-06 14:26:03,630 -- [conftest.py-->line:28] - INFO: 登录的用例执行完毕
+
+
+
+2021-04-06 14:26:03,640 -- [conftest.py-->line:19] - INFO: 开始执行登录的用例
+2021-04-06 14:26:11,993 -- [base_page.py-->line:57] - INFO: 元素--('xpath', '/html/body/div/div/div[1]/form/div[1]/div/div/input')--等待可见成功,等待时间0.6450645923614502秒
+2021-04-06 14:26:12,093 -- [base_page.py-->line:157] - INFO: 元素--('xpath', '/html/body/div/div/div[1]/form/div[1]/div/div/input')--输入----成功,等待时间0.7450745105743408秒
+2021-04-06 14:26:12,152 -- [base_page.py-->line:57] - INFO: 元素--('xpath', "//input[@placeholder='密码']")--等待可见成功,等待时间0.05800580978393555秒
+2021-04-06 14:26:12,556 -- [base_page.py-->line:157] - INFO: 元素--('xpath', "//input[@placeholder='密码']")--输入--sd888888--成功,等待时间0.4630460739135742秒
+2021-04-06 14:26:12,611 -- [base_page.py-->line:57] - INFO: 元素--('xpath', '/html/body/div/div/div[1]/form/div[3]/div/div[1]/div[2]/img')--等待可见成功,等待时间0.05400562286376953秒
+2021-04-06 14:26:12,620 -- [base_page.py-->line:123] - INFO: 元素--('xpath', '/html/body/div/div/div[1]/form/div[3]/div/div[1]/div[2]/img')--获取属性成功,等待时间0.06400632858276367秒
+2021-04-06 14:26:12,678 -- [base_page.py-->line:57] - INFO: 元素--('xpath', '/html/body/div/div/div[1]/form/div[3]/div/div[1]/div[1]/div/input')--等待可见成功,等待时间0.05100512504577637秒
+2021-04-06 14:26:12,862 -- [base_page.py-->line:157] - INFO: 元素--('xpath', '/html/body/div/div/div[1]/form/div[3]/div/div[1]/div[1]/div/input')--输入--5wy78--成功,等待时间0.23502349853515625秒
+2021-04-06 14:26:12,943 -- [base_page.py-->line:73] - INFO: 元素--('xpath', '/html/body/div/div/div[1]/form/div[4]/div/div[1]/div[2]/button/span')--等待可点击成功,等待时间0.0810081958770752秒
+2021-04-06 14:26:13,017 -- [base_page.py-->line:140] - INFO: 元素--('xpath', '/html/body/div/div/div[1]/form/div[4]/div/div[1]/div[2]/button/span')--点击成功,等待时间0.1550154685974121秒
+2021-04-06 14:26:14,045 -- [base_page.py-->line:89] - INFO: 元素--('xpath', "//*[contains(text(),'请输入正确的手机号')]")--等待被加载成功,等待时间0.02800273895263672秒
+2021-04-06 14:26:14,073 -- [1test_login.py-->line:55] - INFO: 反例-弹窗提示===请输入正确的手机号===执行通过
+2021-04-06 14:26:14,073 -- [1test_login.py-->line:56] - DEBUG: 实际结果：请输入正确的手机号
+2021-04-06 14:26:14,073 -- [1test_login.py-->line:57] - DEBUG: 预期结果：请输入正确的手机号
+2021-04-06 14:26:19,136 -- [conftest.py-->line:28] - INFO: 登录的用例执行完毕
+
+
+
+2021-04-06 14:34:40,693 -- [run.py-->line:6] - INFO: ==========开始执行==========
+2021-04-06 14:34:58,506 -- [conftest.py-->line:19] - INFO: 开始执行登录的用例
+2021-04-06 14:36:09,022 -- [conftest.py-->line:19] - INFO: 开始执行登录的用例
+2021-04-06 14:37:02,366 -- [run.py-->line:6] - INFO: ==========开始执行==========
+2021-04-06 14:37:20,181 -- [conftest.py-->line:19] - INFO: 开始执行登录的用例
+2021-04-06 14:37:26,687 -- [conftest.py-->line:24] - INFO: 登录的用例执行完毕
+2021-04-06 14:37:27,330 -- [base_page.py-->line:57] - INFO: 元素--('xpath', '/html/body/div/div/div[1]/form/div[1]/div/div/input')--等待可见成功,等待时间0.6058788299560547秒
+2021-04-06 14:37:27,641 -- [base_page.py-->line:157] - INFO: 元素--('xpath', '/html/body/div/div/div[1]/form/div[1]/div/div/input')--输入--17316181600--成功,等待时间0.9168164730072021秒
+2021-04-06 14:37:27,692 -- [base_page.py-->line:57] - INFO: 元素--('xpath', "//input[@placeholder='密码']")--等待可见成功,等待时间0.05098986625671387秒
+2021-04-06 14:37:27,980 -- [base_page.py-->line:157] - INFO: 元素--('xpath', "//input[@placeholder='密码']")--输入--sd888888--成功,等待时间0.3389322757720947秒
+2021-04-06 14:37:28,041 -- [base_page.py-->line:57] - INFO: 元素--('xpath', '/html/body/div/div/div[1]/form/div[3]/div/div[1]/div[2]/img')--等待可见成功,等待时间0.06098771095275879秒
+2021-04-06 14:37:28,049 -- [base_page.py-->line:123] - INFO: 元素--('xpath', '/html/body/div/div/div[1]/form/div[3]/div/div[1]/div[2]/img')--获取属性成功,等待时间0.06898617744445801秒
+2021-04-06 14:37:28,104 -- [base_page.py-->line:57] - INFO: 元素--('xpath', '/html/body/div/div/div[1]/form/div[3]/div/div[1]/div[1]/div/input')--等待可见成功,等待时间0.040992021560668945秒
+2021-04-06 14:37:28,260 -- [base_page.py-->line:157] - INFO: 元素--('xpath', '/html/body/div/div/div[1]/form/div[3]/div/div[1]/div[1]/div/input')--输入--y6n2x--成功,等待时间0.1969609260559082秒
+2021-04-06 14:37:28,332 -- [base_page.py-->line:73] - INFO: 元素--('xpath', '/html/body/div/div/div[1]/form/div[4]/div/div[1]/div[2]/button/span')--等待可点击成功,等待时间0.07098555564880371秒
+2021-04-06 14:37:28,407 -- [base_page.py-->line:140] - INFO: 元素--('xpath', '/html/body/div/div/div[1]/form/div[4]/div/div[1]/div[2]/button/span')--点击成功,等待时间0.14697051048278809秒
+2021-04-06 14:37:34,684 -- [base_page.py-->line:57] - INFO: 元素--('xpath', '/html/body/div/div/div[1]/form/div[4]/div/div[1]/div[1]/div/input')--等待可见成功,等待时间0.07498478889465332秒
+2021-04-06 14:37:34,839 -- [base_page.py-->line:157] - INFO: 元素--('xpath', '/html/body/div/div/div[1]/form/div[4]/div/div[1]/div[1]/div/input')--输入--444661--成功,等待时间0.22995400428771973秒
+2021-04-06 14:37:34,939 -- [base_page.py-->line:73] - INFO: 元素--('xpath', "//button/*[text()='登录']")--等待可点击成功,等待时间0.09998011589050293秒
+2021-04-06 14:37:35,016 -- [base_page.py-->line:140] - INFO: 元素--('xpath', "//button/*[text()='登录']")--点击成功,等待时间0.17696452140808105秒
+2021-04-06 14:37:35,522 -- [base_page.py-->line:57] - INFO: 元素--('xpath', "//*[text()='退出']")--等待可见成功,等待时间0.5048990249633789秒
+2021-04-06 14:37:35,606 -- [base_page.py-->line:123] - INFO: 元素--('xpath', "//*[text()='退出']")--获取属性成功,等待时间0.5888824462890625秒
+2021-04-06 14:37:35,606 -- [1test_login.py-->line:55] - INFO: 正例-交易成功===登录成功===执行通过
+2021-04-06 14:37:35,607 -- [1test_login.py-->line:56] - DEBUG: 实际结果：登录成功
+2021-04-06 14:37:35,607 -- [1test_login.py-->line:57] - DEBUG: 预期结果：登录成功
+2021-04-06 14:37:41,064 -- [conftest.py-->line:19] - INFO: 开始执行登录的用例
+2021-04-06 14:37:47,990 -- [conftest.py-->line:24] - INFO: 登录的用例执行完毕
+2021-04-06 14:37:48,636 -- [base_page.py-->line:57] - INFO: 元素--('xpath', '/html/body/div/div/div[1]/form/div[1]/div/div/input')--等待可见成功,等待时间0.6108779907226562秒
+2021-04-06 14:37:48,951 -- [base_page.py-->line:157] - INFO: 元素--('xpath', '/html/body/div/div/div[1]/form/div[1]/div/div/input')--输入--17316181600--成功,等待时间0.9258148670196533秒
+2021-04-06 14:37:49,006 -- [base_page.py-->line:57] - INFO: 元素--('xpath', "//input[@placeholder='密码']")--等待可见成功,等待时间0.05498909950256348秒
+2021-04-06 14:37:49,194 -- [base_page.py-->line:157] - INFO: 元素--('xpath', "//input[@placeholder='密码']")--输入----成功,等待时间0.2429513931274414秒
+2021-04-06 14:37:49,254 -- [base_page.py-->line:57] - INFO: 元素--('xpath', '/html/body/div/div/div[1]/form/div[3]/div/div[1]/div[2]/img')--等待可见成功,等待时间0.05998802185058594秒
+2021-04-06 14:37:49,267 -- [base_page.py-->line:123] - INFO: 元素--('xpath', '/html/body/div/div/div[1]/form/div[3]/div/div[1]/div[2]/img')--获取属性成功,等待时间0.07298564910888672秒
+2021-04-06 14:37:49,330 -- [base_page.py-->line:57] - INFO: 元素--('xpath', '/html/body/div/div/div[1]/form/div[3]/div/div[1]/div[1]/div/input')--等待可见成功,等待时间0.05398917198181152秒
+2021-04-06 14:37:49,524 -- [base_page.py-->line:157] - INFO: 元素--('xpath', '/html/body/div/div/div[1]/form/div[3]/div/div[1]/div[1]/div/input')--输入--ppb2w--成功,等待时间0.24795031547546387秒
+2021-04-06 14:37:49,606 -- [base_page.py-->line:73] - INFO: 元素--('xpath', '/html/body/div/div/div[1]/form/div[4]/div/div[1]/div[2]/button/span')--等待可点击成功,等待时间0.08098387718200684秒
+2021-04-06 14:37:49,697 -- [base_page.py-->line:140] - INFO: 元素--('xpath', '/html/body/div/div/div[1]/form/div[4]/div/div[1]/div[2]/button/span')--点击成功,等待时间0.1719655990600586秒
+2021-04-06 14:37:52,777 -- [base_page.py-->line:57] - INFO: 元素--('xpath', '/html/body/div/div/div[1]/form/div[4]/div/div[1]/div[1]/div/input')--等待可见成功,等待时间0.05098986625671387秒
+2021-04-06 14:37:53,029 -- [base_page.py-->line:157] - INFO: 元素--('xpath', '/html/body/div/div/div[1]/form/div[4]/div/div[1]/div[1]/div/input')--输入--482061--成功,等待时间0.30293941497802734秒
+2021-04-06 14:37:53,099 -- [base_page.py-->line:73] - INFO: 元素--('xpath', "//button/*[text()='登录']")--等待可点击成功,等待时间0.06998610496520996秒
+2021-04-06 14:37:53,180 -- [base_page.py-->line:140] - INFO: 元素--('xpath', "//button/*[text()='登录']")--点击成功,等待时间0.1509699821472168秒
+2021-04-06 14:37:53,229 -- [base_page.py-->line:57] - INFO: 元素--('xpath', "//*[contains(text(),'密码不能为空')]")--等待可见成功,等待时间0.04899024963378906秒
+2021-04-06 14:37:53,263 -- [base_page.py-->line:106] - INFO: 元素--('xpath', "//*[contains(text(),'密码不能为空')]")--获取文本成功,等待时间0.08298325538635254秒
+2021-04-06 14:37:53,264 -- [1test_login.py-->line:55] - INFO: 反例-页面提示===密码不能为空===执行通过
+2021-04-06 14:37:53,264 -- [1test_login.py-->line:56] - DEBUG: 实际结果：密码不能为空
+2021-04-06 14:37:53,264 -- [1test_login.py-->line:57] - DEBUG: 预期结果：密码不能为空
+2021-04-06 14:37:58,591 -- [conftest.py-->line:19] - INFO: 开始执行登录的用例
+2021-04-06 14:38:04,705 -- [conftest.py-->line:24] - INFO: 登录的用例执行完毕
+2021-04-06 14:38:05,337 -- [base_page.py-->line:57] - INFO: 元素--('xpath', '/html/body/div/div/div[1]/form/div[1]/div/div/input')--等待可见成功,等待时间0.6008799076080322秒
+2021-04-06 14:38:05,436 -- [base_page.py-->line:157] - INFO: 元素--('xpath', '/html/body/div/div/div[1]/form/div[1]/div/div/input')--输入----成功,等待时间0.6998598575592041秒
+2021-04-06 14:38:05,495 -- [base_page.py-->line:57] - INFO: 元素--('xpath', "//input[@placeholder='密码']")--等待可见成功,等待时间0.058988332748413086秒
+2021-04-06 14:38:05,840 -- [base_page.py-->line:157] - INFO: 元素--('xpath', "//input[@placeholder='密码']")--输入--sd888888--成功,等待时间0.4039194583892822秒
+2021-04-06 14:38:05,893 -- [base_page.py-->line:57] - INFO: 元素--('xpath', '/html/body/div/div/div[1]/form/div[3]/div/div[1]/div[2]/img')--等待可见成功,等待时间0.05298924446105957秒
+2021-04-06 14:38:05,907 -- [base_page.py-->line:123] - INFO: 元素--('xpath', '/html/body/div/div/div[1]/form/div[3]/div/div[1]/div[2]/img')--获取属性成功,等待时间0.0669865608215332秒
+2021-04-06 14:38:05,985 -- [base_page.py-->line:57] - INFO: 元素--('xpath', '/html/body/div/div/div[1]/form/div[3]/div/div[1]/div[1]/div/input')--等待可见成功,等待时间0.07098579406738281秒
+2021-04-06 14:38:06,175 -- [base_page.py-->line:157] - INFO: 元素--('xpath', '/html/body/div/div/div[1]/form/div[3]/div/div[1]/div[1]/div/input')--输入--254np--成功,等待时间0.26094794273376465秒
+2021-04-06 14:38:06,272 -- [base_page.py-->line:73] - INFO: 元素--('xpath', '/html/body/div/div/div[1]/form/div[4]/div/div[1]/div[2]/button/span')--等待可点击成功,等待时间0.09598064422607422秒
+2021-04-06 14:38:06,339 -- [base_page.py-->line:140] - INFO: 元素--('xpath', '/html/body/div/div/div[1]/form/div[4]/div/div[1]/div[2]/button/span')--点击成功,等待时间0.16296720504760742秒
+2021-04-06 14:38:07,370 -- [base_page.py-->line:89] - INFO: 元素--('xpath', "//*[contains(text(),'请输入正确的手机号')]")--等待被加载成功,等待时间0.03199338912963867秒
+2021-04-06 14:38:07,403 -- [1test_login.py-->line:55] - INFO: 反例-弹窗提示===请输入正确的手机号===执行通过
+2021-04-06 14:38:07,403 -- [1test_login.py-->line:56] - DEBUG: 实际结果：请输入正确的手机号
+2021-04-06 14:38:07,403 -- [1test_login.py-->line:57] - DEBUG: 预期结果：请输入正确的手机号
+2021-04-06 14:38:12,366 -- [run.py-->line:8] - INFO: ====================执行完毕====================
+
+
+
+2021-04-07 11:23:26,885 -- [run.py-->line:4] - INFO: ********************开始执行********************
+2021-04-07 11:23:46,773 -- [conftest.py-->line:19] - INFO: 开始执行登录的用例
+2021-04-07 11:24:00,099 -- [conftest.py-->line:24] - INFO: 登录的用例执行完毕
+2021-04-07 11:24:00,242 -- [base_page.py-->line:57] - INFO: 元素--('xpath', '/html/body/div/div/div[1]/form/div[1]/div/div/input')--等待可见成功,等待时间0.11401152610778809秒
+2021-04-07 11:24:00,684 -- [base_page.py-->line:157] - INFO: 元素--('xpath', '/html/body/div/div/div[1]/form/div[1]/div/div/input')--输入--17316181600--成功,等待时间0.5560557842254639秒
+2021-04-07 11:24:00,733 -- [base_page.py-->line:57] - INFO: 元素--('xpath', "//input[@placeholder='密码']")--等待可见成功,等待时间0.04900479316711426秒
+2021-04-07 11:24:02,301 -- [base_page.py-->line:157] - INFO: 元素--('xpath', "//input[@placeholder='密码']")--输入--sd888888--成功,等待时间1.617161512374878秒
+2021-04-07 11:24:02,350 -- [base_page.py-->line:57] - INFO: 元素--('xpath', '/html/body/div/div/div[1]/form/div[3]/div/div[1]/div[2]/img')--等待可见成功,等待时间0.04900503158569336秒
+2021-04-07 11:24:02,358 -- [base_page.py-->line:123] - INFO: 元素--('xpath', '/html/body/div/div/div[1]/form/div[3]/div/div[1]/div[2]/img')--获取属性成功,等待时间0.057005882263183594秒
+2021-04-07 11:24:02,566 -- [base_page.py-->line:57] - INFO: 元素--('xpath', '/html/body/div/div/div[1]/form/div[3]/div/div[1]/div[1]/div/input')--等待可见成功,等待时间0.048004865646362305秒
+2021-04-07 11:24:02,725 -- [base_page.py-->line:157] - INFO: 元素--('xpath', '/html/body/div/div/div[1]/form/div[3]/div/div[1]/div[1]/div/input')--输入--xgw4p--成功,等待时间0.20702075958251953秒
+2021-04-07 11:24:02,801 -- [base_page.py-->line:73] - INFO: 元素--('xpath', '/html/body/div/div/div[1]/form/div[4]/div/div[1]/div[2]/button/span')--等待可点击成功,等待时间0.07600784301757812秒
+2021-04-07 11:24:02,871 -- [base_page.py-->line:140] - INFO: 元素--('xpath', '/html/body/div/div/div[1]/form/div[4]/div/div[1]/div[2]/button/span')--点击成功,等待时间0.14601469039916992秒
+2021-04-07 11:24:17,820 -- [conftest.py-->line:19] - INFO: 开始执行登录的用例
+2021-04-07 11:24:23,264 -- [conftest.py-->line:24] - INFO: 登录的用例执行完毕
+2021-04-07 11:24:23,915 -- [base_page.py-->line:57] - INFO: 元素--('xpath', '/html/body/div/div/div[1]/form/div[1]/div/div/input')--等待可见成功,等待时间0.6080610752105713秒
+2021-04-07 11:24:24,230 -- [base_page.py-->line:157] - INFO: 元素--('xpath', '/html/body/div/div/div[1]/form/div[1]/div/div/input')--输入--17316181600--成功,等待时间0.9220924377441406秒
+2021-04-07 11:24:24,275 -- [base_page.py-->line:57] - INFO: 元素--('xpath', "//input[@placeholder='密码']")--等待可见成功,等待时间0.04500460624694824秒
+2021-04-07 11:24:24,491 -- [base_page.py-->line:157] - INFO: 元素--('xpath', "//input[@placeholder='密码']")--输入----成功,等待时间0.26102590560913086秒
+2021-04-07 11:24:24,555 -- [base_page.py-->line:57] - INFO: 元素--('xpath', '/html/body/div/div/div[1]/form/div[3]/div/div[1]/div[2]/img')--等待可见成功,等待时间0.06400656700134277秒
+2021-04-07 11:24:24,566 -- [base_page.py-->line:123] - INFO: 元素--('xpath', '/html/body/div/div/div[1]/form/div[3]/div/div[1]/div[2]/img')--获取属性成功,等待时间0.07500767707824707秒
+2021-04-07 11:24:24,658 -- [base_page.py-->line:57] - INFO: 元素--('xpath', '/html/body/div/div/div[1]/form/div[3]/div/div[1]/div[1]/div/input')--等待可见成功,等待时间0.04100394248962402秒
+2021-04-07 11:24:24,868 -- [base_page.py-->line:157] - INFO: 元素--('xpath', '/html/body/div/div/div[1]/form/div[3]/div/div[1]/div[1]/div/input')--输入--4nw2x--成功,等待时间0.2510251998901367秒
+2021-04-07 11:24:24,953 -- [base_page.py-->line:73] - INFO: 元素--('xpath', '/html/body/div/div/div[1]/form/div[4]/div/div[1]/div[2]/button/span')--等待可点击成功,等待时间0.0830082893371582秒
+2021-04-07 11:24:25,025 -- [base_page.py-->line:140] - INFO: 元素--('xpath', '/html/body/div/div/div[1]/form/div[4]/div/div[1]/div[2]/button/span')--点击成功,等待时间0.15601563453674316秒
+2021-04-07 11:24:32,661 -- [conftest.py-->line:19] - INFO: 开始执行登录的用例
+2021-04-07 11:24:38,507 -- [conftest.py-->line:24] - INFO: 登录的用例执行完毕
+2021-04-07 11:24:38,687 -- [base_page.py-->line:57] - INFO: 元素--('xpath', '/html/body/div/div/div[1]/form/div[1]/div/div/input')--等待可见成功,等待时间0.1160118579864502秒
+2021-04-07 11:24:38,891 -- [base_page.py-->line:157] - INFO: 元素--('xpath', '/html/body/div/div/div[1]/form/div[1]/div/div/input')--输入----成功,等待时间0.32003211975097656秒
+2021-04-07 11:24:38,991 -- [base_page.py-->line:57] - INFO: 元素--('xpath', "//input[@placeholder='密码']")--等待可见成功,等待时间0.09900975227355957秒
+2021-04-07 11:24:39,573 -- [base_page.py-->line:157] - INFO: 元素--('xpath', "//input[@placeholder='密码']")--输入--sd888888--成功,等待时间0.681067943572998秒
+2021-04-07 11:24:39,628 -- [base_page.py-->line:57] - INFO: 元素--('xpath', '/html/body/div/div/div[1]/form/div[3]/div/div[1]/div[2]/img')--等待可见成功,等待时间0.055005788803100586秒
+2021-04-07 11:24:39,638 -- [base_page.py-->line:123] - INFO: 元素--('xpath', '/html/body/div/div/div[1]/form/div[3]/div/div[1]/div[2]/img')--获取属性成功,等待时间0.06500673294067383秒
+2021-04-07 11:24:39,708 -- [base_page.py-->line:57] - INFO: 元素--('xpath', '/html/body/div/div/div[1]/form/div[3]/div/div[1]/div[1]/div/input')--等待可见成功,等待时间0.05000495910644531秒
+2021-04-07 11:24:39,930 -- [base_page.py-->line:157] - INFO: 元素--('xpath', '/html/body/div/div/div[1]/form/div[3]/div/div[1]/div[1]/div/input')--输入--eba57--成功,等待时间0.27202725410461426秒
+2021-04-07 11:24:40,004 -- [base_page.py-->line:73] - INFO: 元素--('xpath', '/html/body/div/div/div[1]/form/div[4]/div/div[1]/div[2]/button/span')--等待可点击成功,等待时间0.07300710678100586秒
+2021-04-07 11:24:40,072 -- [base_page.py-->line:140] - INFO: 元素--('xpath', '/html/body/div/div/div[1]/form/div[4]/div/div[1]/div[2]/button/span')--点击成功,等待时间0.14101409912109375秒
+2021-04-07 11:24:41,092 -- [base_page.py-->line:89] - INFO: 元素--('xpath', "//*[contains(text(),'请输入正确的手机号')]")--等待被加载成功,等待时间0.020001888275146484秒
+2021-04-07 11:24:41,117 -- [handle_assert.py-->line:19] - INFO: 反例-弹窗提示===请输入正确的手机号===执行通过
+2021-04-07 11:24:41,117 -- [handle_assert.py-->line:20] - DEBUG: 实际结果：请输入正确的手机号
+2021-04-07 11:24:41,117 -- [handle_assert.py-->line:21] - DEBUG: 预期结果：请输入正确的手机号
+2021-04-07 11:24:46,194 -- [run.py-->line:9] - INFO: ********************执行完毕********************
+
+
+
+2021-04-07 14:18:53,686 -- [run.py-->line:4] - INFO: ********************开始执行********************
+2021-04-07 14:19:12,885 -- [conftest.py-->line:19] - INFO: 开始执行登录的用例
+2021-04-07 14:19:21,850 -- [conftest.py-->line:24] - INFO: 登录的用例执行完毕
+2021-04-07 14:19:22,510 -- [base_page.py-->line:57] - INFO: 元素--('xpath', '/html/body/div/div/div[1]/form/div[1]/div/div/input')--等待可见成功,等待时间0.6290628910064697秒
+2021-04-07 14:19:22,901 -- [base_page.py-->line:157] - INFO: 元素--('xpath', '/html/body/div/div/div[1]/form/div[1]/div/div/input')--输入--17316181600--成功,等待时间1.0201020240783691秒
+2021-04-07 14:19:22,957 -- [base_page.py-->line:57] - INFO: 元素--('xpath', "//input[@placeholder='密码']")--等待可见成功,等待时间0.05600547790527344秒
+2021-04-07 14:19:23,410 -- [base_page.py-->line:157] - INFO: 元素--('xpath', "//input[@placeholder='密码']")--输入--sd888888--成功,等待时间0.5090510845184326秒
+2021-04-07 14:19:23,468 -- [base_page.py-->line:57] - INFO: 元素--('xpath', '/html/body/div/div/div[1]/form/div[3]/div/div[1]/div[2]/img')--等待可见成功,等待时间0.058005571365356445秒
+2021-04-07 14:19:23,480 -- [base_page.py-->line:123] - INFO: 元素--('xpath', '/html/body/div/div/div[1]/form/div[3]/div/div[1]/div[2]/img')--获取属性成功,等待时间0.0700066089630127秒
+2021-04-07 14:19:23,541 -- [base_page.py-->line:57] - INFO: 元素--('xpath', '/html/body/div/div/div[1]/form/div[3]/div/div[1]/div[1]/div/input')--等待可见成功,等待时间0.05600547790527344秒
+2021-04-07 14:19:23,731 -- [base_page.py-->line:157] - INFO: 元素--('xpath', '/html/body/div/div/div[1]/form/div[3]/div/div[1]/div[1]/div/input')--输入--4agnx--成功,等待时间0.24602437019348145秒
+2021-04-07 14:19:23,884 -- [base_page.py-->line:73] - INFO: 元素--('xpath', '/html/body/div/div/div[1]/form/div[4]/div/div[1]/div[2]/button/span')--等待可点击成功,等待时间0.1530153751373291秒
+2021-04-07 14:19:23,977 -- [base_page.py-->line:140] - INFO: 元素--('xpath', '/html/body/div/div/div[1]/form/div[4]/div/div[1]/div[2]/button/span')--点击成功,等待时间0.24602484703063965秒
+2021-04-07 14:19:30,051 -- [base_page.py-->line:57] - INFO: 元素--('xpath', '/html/body/div/div/div[1]/form/div[4]/div/div[1]/div[1]/div/input')--等待可见成功,等待时间0.06300616264343262秒
+2021-04-07 14:19:30,247 -- [base_page.py-->line:157] - INFO: 元素--('xpath', '/html/body/div/div/div[1]/form/div[4]/div/div[1]/div[1]/div/input')--输入--718313--成功,等待时间0.25902605056762695秒
+2021-04-07 14:19:30,329 -- [base_page.py-->line:73] - INFO: 元素--('xpath', "//button/*[text()='登录']")--等待可点击成功,等待时间0.08100771903991699秒
+2021-04-07 14:19:30,412 -- [base_page.py-->line:140] - INFO: 元素--('xpath', "//button/*[text()='登录']")--点击成功,等待时间0.1640162467956543秒
+2021-04-07 14:19:31,000 -- [base_page.py-->line:57] - INFO: 元素--('xpath', "//*[text()='退出']")--等待可见成功,等待时间0.5880587100982666秒
+2021-04-07 14:19:31,022 -- [base_page.py-->line:123] - INFO: 元素--('xpath', "//*[text()='退出']")--获取属性成功,等待时间0.6100609302520752秒
+2021-04-07 14:19:31,022 -- [handle_assert.py-->line:19] - INFO: 正例-交易成功===登录成功===执行通过
+2021-04-07 14:19:31,023 -- [handle_assert.py-->line:20] - DEBUG: 实际结果：登录成功
+2021-04-07 14:19:31,023 -- [handle_assert.py-->line:21] - DEBUG: 预期结果：登录成功
+2021-04-07 14:19:36,758 -- [conftest.py-->line:19] - INFO: 开始执行登录的用例
+2021-04-07 14:19:42,498 -- [conftest.py-->line:24] - INFO: 登录的用例执行完毕
+2021-04-07 14:19:43,137 -- [base_page.py-->line:57] - INFO: 元素--('xpath', '/html/body/div/div/div[1]/form/div[1]/div/div/input')--等待可见成功,等待时间0.6120612621307373秒
+2021-04-07 14:19:43,429 -- [base_page.py-->line:157] - INFO: 元素--('xpath', '/html/body/div/div/div[1]/form/div[1]/div/div/input')--输入--17316181600--成功,等待时间0.9050905704498291秒
+2021-04-07 14:19:43,481 -- [base_page.py-->line:57] - INFO: 元素--('xpath', "//input[@placeholder='密码']")--等待可见成功,等待时间0.05200505256652832秒
+2021-04-07 14:19:43,674 -- [base_page.py-->line:157] - INFO: 元素--('xpath', "//input[@placeholder='密码']")--输入----成功,等待时间0.2450244426727295秒
+2021-04-07 14:19:43,728 -- [base_page.py-->line:57] - INFO: 元素--('xpath', '/html/body/div/div/div[1]/form/div[3]/div/div[1]/div[2]/img')--等待可见成功,等待时间0.05400562286376953秒
+2021-04-07 14:19:43,740 -- [base_page.py-->line:123] - INFO: 元素--('xpath', '/html/body/div/div/div[1]/form/div[3]/div/div[1]/div[2]/img')--获取属性成功,等待时间0.06600666046142578秒
+2021-04-07 14:19:43,799 -- [base_page.py-->line:57] - INFO: 元素--('xpath', '/html/body/div/div/div[1]/form/div[3]/div/div[1]/div[1]/div/input')--等待可见成功,等待时间0.05400562286376953秒
+2021-04-07 14:19:43,991 -- [base_page.py-->line:157] - INFO: 元素--('xpath', '/html/body/div/div/div[1]/form/div[3]/div/div[1]/div[1]/div/input')--输入--362yn--成功,等待时间0.24602484703063965秒
+2021-04-07 14:19:44,067 -- [base_page.py-->line:73] - INFO: 元素--('xpath', '/html/body/div/div/div[1]/form/div[4]/div/div[1]/div[2]/button/span')--等待可点击成功,等待时间0.07600760459899902秒
+2021-04-07 14:19:44,178 -- [base_page.py-->line:140] - INFO: 元素--('xpath', '/html/body/div/div/div[1]/form/div[4]/div/div[1]/div[2]/button/span')--点击成功,等待时间0.18701863288879395秒
+2021-04-07 14:19:47,279 -- [base_page.py-->line:57] - INFO: 元素--('xpath', '/html/body/div/div/div[1]/form/div[4]/div/div[1]/div[1]/div/input')--等待可见成功,等待时间0.060006141662597656秒
+2021-04-07 14:19:47,605 -- [base_page.py-->line:157] - INFO: 元素--('xpath', '/html/body/div/div/div[1]/form/div[4]/div/div[1]/div[1]/div/input')--输入--741331--成功,等待时间0.38603878021240234秒
+2021-04-07 14:19:47,690 -- [base_page.py-->line:73] - INFO: 元素--('xpath', "//button/*[text()='登录']")--等待可点击成功,等待时间0.08500838279724121秒
+2021-04-07 14:19:47,758 -- [base_page.py-->line:140] - INFO: 元素--('xpath', "//button/*[text()='登录']")--点击成功,等待时间0.1530153751373291秒
+2021-04-07 14:19:47,813 -- [base_page.py-->line:57] - INFO: 元素--('xpath', "//*[contains(text(),'密码不能为空')]")--等待可见成功,等待时间0.05500531196594238秒
+2021-04-07 14:19:47,854 -- [base_page.py-->line:106] - INFO: 元素--('xpath', "//*[contains(text(),'密码不能为空')]")--获取文本成功,等待时间0.0960092544555664秒
+2021-04-07 14:19:47,854 -- [handle_assert.py-->line:19] - INFO: 反例-页面提示===密码不能为空===执行通过
+2021-04-07 14:19:47,854 -- [handle_assert.py-->line:20] - DEBUG: 实际结果：密码不能为空
+2021-04-07 14:19:47,855 -- [handle_assert.py-->line:21] - DEBUG: 预期结果：密码不能为空
+2021-04-07 14:19:53,109 -- [conftest.py-->line:19] - INFO: 开始执行登录的用例
+2021-04-07 14:20:00,059 -- [conftest.py-->line:24] - INFO: 登录的用例执行完毕
+2021-04-07 14:20:00,694 -- [base_page.py-->line:57] - INFO: 元素--('xpath', '/html/body/div/div/div[1]/form/div[1]/div/div/input')--等待可见成功,等待时间0.601060152053833秒
+2021-04-07 14:20:00,785 -- [base_page.py-->line:157] - INFO: 元素--('xpath', '/html/body/div/div/div[1]/form/div[1]/div/div/input')--输入----成功,等待时间0.6920690536499023秒
+2021-04-07 14:20:00,831 -- [base_page.py-->line:57] - INFO: 元素--('xpath', "//input[@placeholder='密码']")--等待可见成功,等待时间0.0460047721862793秒
+2021-04-07 14:20:01,172 -- [base_page.py-->line:157] - INFO: 元素--('xpath', "//input[@placeholder='密码']")--输入--sd888888--成功,等待时间0.3870387077331543秒
+2021-04-07 14:20:01,252 -- [base_page.py-->line:57] - INFO: 元素--('xpath', '/html/body/div/div/div[1]/form/div[3]/div/div[1]/div[2]/img')--等待可见成功,等待时间0.07900810241699219秒
+2021-04-07 14:20:01,266 -- [base_page.py-->line:123] - INFO: 元素--('xpath', '/html/body/div/div/div[1]/form/div[3]/div/div[1]/div[2]/img')--获取属性成功,等待时间0.09300947189331055秒
+2021-04-07 14:20:01,332 -- [base_page.py-->line:57] - INFO: 元素--('xpath', '/html/body/div/div/div[1]/form/div[3]/div/div[1]/div[1]/div/input')--等待可见成功,等待时间0.05200529098510742秒
+2021-04-07 14:20:01,519 -- [base_page.py-->line:157] - INFO: 元素--('xpath', '/html/body/div/div/div[1]/form/div[3]/div/div[1]/div[1]/div/input')--输入--nc4pp--成功,等待时间0.23902416229248047秒
+2021-04-07 14:20:01,604 -- [base_page.py-->line:73] - INFO: 元素--('xpath', '/html/body/div/div/div[1]/form/div[4]/div/div[1]/div[2]/button/span')--等待可点击成功,等待时间0.08400845527648926秒
+2021-04-07 14:20:01,670 -- [base_page.py-->line:140] - INFO: 元素--('xpath', '/html/body/div/div/div[1]/form/div[4]/div/div[1]/div[2]/button/span')--点击成功,等待时间0.15001487731933594秒
+2021-04-07 14:20:02,696 -- [base_page.py-->line:89] - INFO: 元素--('xpath', "//*[contains(text(),'请输入正确的手机号')]")--等待被加载成功,等待时间0.022001981735229492秒
+2021-04-07 14:20:02,720 -- [handle_assert.py-->line:19] - INFO: 反例-弹窗提示===请输入正确的手机号===执行通过
+2021-04-07 14:20:02,721 -- [handle_assert.py-->line:20] - DEBUG: 实际结果：请输入正确的手机号
+2021-04-07 14:20:02,721 -- [handle_assert.py-->line:21] - DEBUG: 预期结果：请输入正确的手机号
+2021-04-07 14:20:07,803 -- [run.py-->line:9] - INFO: ********************执行完毕********************
+
+
+
